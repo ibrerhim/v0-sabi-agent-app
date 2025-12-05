@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,9 +9,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-white font-bold">
-                SA
-              </div>
+              <Image
+                src="/images/sabi-20agent-20-284-29.png"
+                alt="Sabi Agent Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
               <span className="font-bold">Sabi Agent</span>
             </div>
             <p className="text-sm text-muted">AI content creation for African SMEs</p>

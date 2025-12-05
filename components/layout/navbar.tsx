@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useSession, signOut } from "next-auth/react"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
@@ -15,9 +16,13 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-white font-bold">
-              SA
-            </div>
+            <Image
+              src="/images/sabi-20agent-20-284-29.png"
+              alt="Sabi Agent Logo"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+            />
             <span className="font-bold text-lg text-foreground hidden sm:inline">Sabi Agent</span>
           </Link>
 

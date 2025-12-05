@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import { Inter } from "next/font/google"
+import { Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { SessionProvider } from "next-auth/react"
 import { getServerSession } from "next-auth/next"
@@ -8,7 +9,7 @@ import "./globals.css"
 import Navbar from "@/components/layout/navbar"
 import Footer from "@/components/layout/footer"
 
-const _geist = Geist({ subsets: ["latin"] })
+const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {

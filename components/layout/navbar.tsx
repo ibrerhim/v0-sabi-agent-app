@@ -57,31 +57,26 @@ export default function Navbar() {
             {session ? (
               <>
                 <Link href="/dashboard">
-                  <Button variant="outline" size="sm" className="bg-muted hover:bg-muted-dark">
+                  <Button variant="outline" size="sm">
                     {" "}
-                    {/* Cleaner button design */}
                     Dashboard
                   </Button>
                 </Link>
-                <Button variant="outline" size="sm" onClick={() => signOut()} className="bg-muted hover:bg-muted-dark">
+                <Button variant="outline" size="sm" onClick={() => signOut()}>
                   {" "}
-                  {/* Cleaner button design */}
                   Sign Out
                 </Button>
               </>
             ) : (
               <>
                 <Link href="/auth/signin">
-                  <Button variant="outline" size="sm" className="bg-muted hover:bg-muted-dark">
+                  <Button variant="outline" size="sm">
                     {" "}
-                    {/* Cleaner button design */}
                     Sign In
                   </Button>
                 </Link>
                 <Link href="/auth/signup">
-                  <Button size="sm" className="bg-primary hover:bg-primary-dark">
-                    Get Started
-                  </Button>
+                  <Button size="sm">Get Started</Button>
                 </Link>
               </>
             )}

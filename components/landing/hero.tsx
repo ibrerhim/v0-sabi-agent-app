@@ -12,7 +12,7 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="space-y-6">
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-success/15 border border-success/30">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-success/10 border border-success/30">
                 <span className="w-2 h-2 rounded-full bg-success"></span>
                 <p className="text-sm font-semibold text-foreground">AI Content Created Just for You</p>
               </div>
@@ -20,7 +20,7 @@ export default function Hero() {
               {/* Main Headline */}
               <h1 className="text-6xl lg:text-7xl font-bold text-foreground leading-tight tracking-tight">
                 Create, Schedule & Post
-                <span className="block text-primary"> Content Automatically</span>
+                <span className="block text-primary">Content Automatically</span>
               </h1>
 
               {/* Subheading */}
@@ -67,7 +67,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-br from-success/20 to-primary/10 rounded-3xl blur-3xl opacity-40"></div>
 
             {/* Card */}
-            <div className="relative h-full bg-gradient-to-br from-white to-success/5 rounded-3xl border border-success/20 shadow-soft-lg p-10 flex flex-col items-center justify-center space-y-6">
+            <div className="relative h-full bg-gradient-to-br from-white to-success/5 rounded-3xl border border-success/30 shadow-soft-lg p-10 flex flex-col items-center justify-center space-y-6">
               <div className="w-20 h-20 rounded-full bg-success/15 flex items-center justify-center">
                 <span className="text-4xl">📊</span>
               </div>

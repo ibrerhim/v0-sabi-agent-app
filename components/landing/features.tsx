@@ -35,18 +35,25 @@ export default function Features() {
   ]
 
   return (
-    <section id="features" className="w-full py-20 bg-muted-light/30">
+    <section id="features" className="w-full py-24 bg-success/5">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">Powerful Features</h2>
-          <p className="text-lg text-muted max-w-2xl mx-auto">Everything you need to succeed on social media</p>
+        {/* Section Header */}
+        <div className="text-center mb-20">
+          <h2 className="text-5xl lg:text-6xl font-bold text-foreground mb-4 tracking-tight">Powerful Features</h2>
+          <p className="text-lg text-muted max-w-2xl mx-auto leading-relaxed">
+            Everything you need to succeed on social media
+          </p>
         </div>
 
+        {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
-            <div key={index} className="card hover:shadow-soft-lg transition-smooth">
-              <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-lg font-bold text-foreground mb-2">{feature.title}</h3>
+            <div
+              key={index}
+              className="group rounded-2xl border border-border bg-card shadow-soft-sm hover:shadow-soft-lg transition-smooth p-8 space-y-4"
+            >
+              <div className="text-5xl group-hover:scale-110 transition-transform duration-300">{feature.icon}</div>
+              <h3 className="text-lg font-bold text-foreground">{feature.title}</h3>
               <p className="text-muted text-sm leading-relaxed">{feature.description}</p>
             </div>
           ))}

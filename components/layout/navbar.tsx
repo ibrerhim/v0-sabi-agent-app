@@ -27,44 +27,54 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden md:flex items-center gap-4">
+            {" "}
+            {/* Improved spacing */}
             <Link
               href="/#features"
-              className="px-3 py-2 text-sm font-medium text-muted hover:text-foreground transition-smooth"
+              className="px-4 py-2 text-sm font-medium text-muted hover:text-foreground transition-smooth"
             >
               Features
             </Link>
             <Link
               href="/#pricing"
-              className="px-3 py-2 text-sm font-medium text-muted hover:text-foreground transition-smooth"
+              className="px-4 py-2 text-sm font-medium text-muted hover:text-foreground transition-smooth"
             >
               Pricing
             </Link>
             <Link
               href="/#testimonials"
-              className="px-3 py-2 text-sm font-medium text-muted hover:text-foreground transition-smooth"
+              className="px-4 py-2 text-sm font-medium text-muted hover:text-foreground transition-smooth"
             >
               Testimonials
             </Link>
           </div>
 
           {/* Auth Buttons */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
+            {" "}
+            {/* Improved spacing */}
             {session ? (
               <>
                 <Link href="/dashboard">
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="bg-muted hover:bg-muted-dark">
+                    {" "}
+                    {/* Cleaner button design */}
                     Dashboard
                   </Button>
                 </Link>
-                <Button variant="outline" size="sm" onClick={() => signOut()}>
+                <Button variant="outline" size="sm" onClick={() => signOut()} className="bg-muted hover:bg-muted-dark">
+                  {" "}
+                  {/* Cleaner button design */}
                   Sign Out
                 </Button>
               </>
             ) : (
               <>
                 <Link href="/auth/signin">
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="bg-muted hover:bg-muted-dark">
+                    {" "}
+                    {/* Cleaner button design */}
                     Sign In
                   </Button>
                 </Link>

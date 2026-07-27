@@ -21,7 +21,7 @@ export default function DashboardSidebar() {
       className={`${isOpen ? "w-64" : "w-20"} border-r border-border bg-background transition-all duration-300 hidden md:flex flex-col`}
     >
       <div className="h-16 border-b border-border flex items-center justify-between px-4">
-        {isOpen && <span className="font-bold text-lg">Sabi Agent</span>}
+        {isOpen && <span className="font-bold text-lg">Rahmax Agent</span>}
         <button onClick={() => setIsOpen(!isOpen)} className="p-2 hover:bg-muted-light rounded-lg transition-smooth">
           {isOpen ? "◀" : "▶"}
         </button>

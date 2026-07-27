@@ -5,17 +5,19 @@ import BusinessModel from "@/components/landing/business-model"
 import Traction from "@/components/landing/traction"
 import Testimonials from "@/components/landing/testimonials"
 import CTASection from "@/components/landing/cta-section"
+import LandingMotion from "@/components/landing/landing-motion"
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="rahmax-landing">
       <Hero />
+      <Traction />
       <HowItWorks />
       <Features />
-      <Traction />
       <BusinessModel />
       <Testimonials />
       <CTASection />
+      <LandingMotion />
     </div>
   )
 }

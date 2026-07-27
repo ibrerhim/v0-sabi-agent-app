@@ -72,7 +72,7 @@ export default function SignUp() {
           </div>
         </div>
         <h1 className="text-2xl font-bold text-foreground mb-2">Create Your Account</h1>
-        <p className="text-muted">Join 150+ African SMEs using Sabi Agent</p>
+        <p className="text-muted">Join 150+ African SMEs using Rahmax Agent</p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">

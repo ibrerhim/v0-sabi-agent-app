@@ -1,0 +1,61 @@
+/* Hallmark · macrostructure: Split Studio · theme: Studio · genre: editorial-commerce · pre-emit critique: P5 H5 E4 S5 R5 V5 */
+/* Hallmark · enrichment: E8 editorial photography + custom SVG linework · nav: N9 · footer: Ft1 · contrast: pass (46–50) · slop: pass (51–55) · honest: pass (56) · chrome: pass (57) · tokens: pass (58) · responsive: pass (59) · icons: pass (60) · mobile: pass (36, 59, 61–69) */
+:root {
+  --color-rx-paper: oklch(0.982 0.009 139);
+  --color-rx-paper-deep: oklch(0.943 0.024 139);
+  --color-rx-paper-warm: oklch(0.965 0.014 88);
+  --color-rx-ink: oklch(0.19 0.032 146);
+  --color-rx-ink-soft: oklch(0.38 0.036 145);
+  --color-rx-muted: oklch(0.52 0.029 144);
+  --color-rx-green: oklch(0.5 0.15 143);
+  --color-rx-green-dark: oklch(0.32 0.092 143);
+  --color-rx-lime: oklch(0.83 0.165 129);
+  --color-rx-white: oklch(1 0 0);
+  --color-rx-rule: oklch(0.81 0.026 142);
+  --color-rx-rule-dark: oklch(0.35 0.035 145);
+  --color-rx-shadow: oklch(0.17 0.025 145 / 0.13);
+  --color-rx-overlay: oklch(0.13 0.03 145 / 0.42);
+
+  --font-rx-display: var(--font-bricolage-loaded), sans-serif;
+  --font-rx-body: var(--font-geist-loaded), sans-serif;
+  --font-rx-mono: var(--font-mono), monospace;
+
+  --space-rx-1: 0.25rem;
+  --space-rx-2: 0.5rem;
+  --space-rx-3: 0.75rem;
+  --space-rx-4: 1rem;
+  --space-rx-5: 1.25rem;
+  --space-rx-6: 1.5rem;
+  --space-rx-8: 2rem;
+  --space-rx-10: 2.5rem;
+  --space-rx-12: 3rem;
+  --space-rx-16: 4rem;
+  --space-rx-20: 5rem;
+  --space-rx-24: 6rem;
+  --space-rx-32: 8rem;
+
+  --text-rx-xs: 0.75rem;
+  --text-rx-sm: 0.875rem;
+  --text-rx-base: 1rem;
+  --text-rx-lg: 1.125rem;
+  --text-rx-xl: 1.25rem;
+  --text-rx-2xl: clamp(1.5rem, 2.3vw, 2.2rem);
+  --text-rx-3xl: clamp(2.2rem, 5vw, 4.6rem);
+  --text-rx-hero: clamp(3.25rem, min(6vw, 9.2vh), 6rem);
+  --text-rx-mast: clamp(4rem, 13vw, 11rem);
+
+  --ease-rx-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-rx-standard: cubic-bezier(0.2, 0, 0, 1);
+  --dur-rx-fast: 180ms;
+  --dur-rx-base: 360ms;
+  --dur-rx-slow: 760ms;
+
+  --rule-rx: 1px;
+  --radius-rx-sm: 0.5rem;
+  --radius-rx-md: 1rem;
+  --radius-rx-lg: 1.5rem;
+  --radius-rx-pill: 999px;
+
+  --z-rx-nav: 50;
+  --z-rx-progress: 60;
+}

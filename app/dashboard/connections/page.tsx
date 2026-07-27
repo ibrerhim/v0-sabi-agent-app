@@ -96,7 +96,7 @@ export default function ConnectionsPage() {
           <div>
             <div className="text-3xl mb-3">⏰</div>
             <p className="font-semibold text-foreground mb-2">Schedule in Advance</p>
-            <p className="text-sm text-muted">Plan your content calendar weeks ahead and let Sabi Agent do the work</p>
+            <p className="text-sm text-muted">Plan your content calendar weeks ahead and let Rahmax Agent do the work</p>
           </div>
           <div>
             <div className="text-3xl mb-3">💬</div>

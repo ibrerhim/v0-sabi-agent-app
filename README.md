@@ -1,4 +1,4 @@
-# Sabi Agent - AI Content Creation & Social Media Manager
+# Rahmax Agent - AI Content Creation & Social Media Manager
 
 A full-stack SaaS application for African SMEs to automate content creation and social media management.
 
@@ -204,7 +204,7 @@ MIT License - see LICENSE file for details
 
 For issues and questions:
 - GitHub Issues: [Create an issue](https://github.com/your-repo/issues)
-- Email: support@sabiagent.com
+- Email: support@rahmaxagent.com
 
 ## Roadmap
 

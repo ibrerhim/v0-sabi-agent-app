@@ -53,7 +53,7 @@ export default function SignIn() {
           </div>
         </div>
         <h1 className="text-2xl font-bold text-foreground mb-2">Welcome Back</h1>
-        <p className="text-muted">Sign in to your Sabi Agent account</p>
+        <p className="text-muted">Sign in to your Rahmax Agent account</p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">

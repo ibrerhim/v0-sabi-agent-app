@@ -12,7 +12,7 @@ export default function DashboardHeader() {
         <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-white font-bold text-sm">
           SA
         </div>
-        <span className="font-bold">Sabi</span>
+        <span className="font-bold">Rahmax</span>
       </div>
 
       <div className="flex items-center gap-4">
